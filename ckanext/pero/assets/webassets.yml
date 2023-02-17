@@ -1,0 +1,14 @@
+# pero-js:
+#   filter: rjsmin
+#   output: ckanext-pero/%(version)s-pero.js
+#   contents:
+#     - js/pero.js
+#   extra:
+#     preload:
+#       - base/main
+
+# pero-css:
+#   filter: cssrewrite
+#   output: ckanext-pero/%(version)s-pero.css
+#   contents:
+#     - css/pero.css
